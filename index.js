@@ -124,9 +124,4 @@ function inst_audio(chemin,nt){
     
     },false);
     
-    import { GiphyFetch } from '@giphy/js-fetch-api'
-
-const gf = new GiphyFetch('your api key')
-
-// fetch 10 gifs
-const { data: gifs } = await gf.trending({ limit: 10 })
+    
